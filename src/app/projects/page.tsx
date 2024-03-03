@@ -42,7 +42,8 @@ const Projects: NextPage = () => {
       <nav className="flex justify-between items-center p-4 shadow-md bg-[#1f2833]">
         <span className="text-xl font-bold text-[#66fcf1]">Universidad <span className="text-[#c5a3ff]">EIA</span></span>
         <div className="flex space-x-4">
-            <Link href="/about"><p className="hover:text-[#66fcf1]">About</p></Link>
+          <Link href="/main"><p className="hover:text-[#66fcf1]">Home</p></Link> 
+          <Link href="/about"><p className="hover:text-[#66fcf1]">About</p></Link>
           <Link href="/projects"><p className="hover:text-[#66fcf1]">Projects</p></Link>
           <Link href="/contact"><p className="hover:text-[#66fcf1]">Contact</p></Link> 
         </div>
@@ -68,7 +69,7 @@ const Projects: NextPage = () => {
       
       {/* Reutilizamos el mismo footer que en la página About */}
       <footer className="p-4 bg-[#1f2833] text-center">
-        Hecho con ♥ en Next.js
+        Ingenieria Web - Taller 1
       </footer>
     </div>
   );
